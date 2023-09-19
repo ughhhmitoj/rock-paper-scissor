@@ -9,3 +9,22 @@ function getComputerChoice(){
     computerChoice = choices[index];
     return computerChoice;
 }
+console.log(getComputerChoice());
+
+function playRound(playerChoice,computerChoice){
+    /*if player choice is paper 
+            and if computer choice is scissor, then lose
+            and if computer choice is rock, then win
+            else tie*/ 
+    
+    /*if player choice is scissor
+            and if computer choice is rock, then lose
+            and if computer choice is paper, then win
+            else tie*/ 
+    
+    /*if player choice is rock
+            and if computer choice is paper, then lose
+            and if computer choice is scissor, then win
+            else tie*/ 
+    
+};
